@@ -1,0 +1,59 @@
+nav{
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0,0, 0.2);
+  background:#fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav-left .menu-icon{
+  width: 22px;
+  margin-right: 25px;
+}
+.nav-left .logo{
+  width:130px;
+}
+.nav-middile .search-box{
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+.nav-middile .search-box input{
+  width: 400px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.nav-middile .search-box img{
+  width: 16px;
+}
+.nav-right img{
+width: 25px;
+margin-right: 25px;
+}
+.nav-right .user-icon{
+  width: 35px;
+  border-radius: 50%;
+}
+
+/* denguras */
+@media screen and (max-width:900px) {
+  .menu-icon{
+    display: none;
+  }
+  .nav-right img{
+    display: none;
+  }
+  .nav-right .user-icon {
+    display: block;
+    width: 30px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-middile .search-box input{
+ width: 100px;
+  }
+}
